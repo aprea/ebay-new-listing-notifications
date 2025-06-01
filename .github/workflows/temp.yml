@@ -24,7 +24,7 @@ jobs:
           body: |
             New eBay Listings Detected:
 
-              ${{secrets.MAIL_USERNAME}} ${{secrets.MAIL_PASSWORD}}
+              ${{secrets.EBAY_CLIENT_ID}} ${{secrets.EBAY_CLIENT_SECRET}}
 
           # Optional priority
           priority: high
